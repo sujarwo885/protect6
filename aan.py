@@ -10,27 +10,27 @@ from gtts import gTTS
 
 #tinkerbell
 cl = LINETCR.LINE()
-cl.login(token="")
+cl.login(token="EniREpZXxL9jEd5Lyyc3.buR6kI43UYYJPsFBWtCcOW.3FtceSpnrblnwqUuVQQwv9w1kA85VD3nVYOLWtFTBvA=")
 cl.loginResult()
 #vidia
 kt = LINETCR.LINE()
-kt.login(token="")
+kt.login(token="EniDnT1pcLYRhpH4s4b1.9Pqpw8rWGfp5nZgd8b0sGq.5YH39J534Dxzue59Kf/GFl2UA4uNl+OpWIfNyUOhCP0=")
 kt.loginResult()
 #rosetta
 ks = LINETCR.LINE()
-ks.login(token="")
+ks.login(token="EnJSpK6m7f1BBYAecCe0.uoEVZ358XP6oB2+t3M2zWa.So2b28ICj7Cgrdo6S7W14dOkSclxThFK0NBXbrS0HAw=")
 ks.loginResult()
 #sirvelmist
 ki = LINETCR.LINE()
-ki.login(token="")
+ki.login(token="EnWukIP7LanoCO4cTlF1.geDeRpm8ggIlB3eg+5v7Oq.NkSl5XgaT7SkllL3jpl5hWdBDU+UBVPNWZrI7joZp3g=")
 ki.loginResult()
 #fawn
 kk = LINETCR.LINE()
-kk.login(token="")
+kk.login(token="EnwjANwyZcLBXAJY3lw7.lRAP1cSe7XWQBVbmCbq9zW.Oo5+05UJ/NiEkUw9uGhi4KaAGI+VdGf3RCYTMAu6pAY=")
 kk.loginResult()
 #iridessa
 kc = LINETCR.LINE()
-kc.login(token="")
+kc.login(token="EnGfsSkwcA1kaNJGpFA2.j8RqvXsTCQOopjMoneNMyG.bRnLh9/VAUP034mPsPxNL3+Pg0TqKFT02pw/8vVWr7Y=")
 kc.loginResult()
 
 #kicker ghost
@@ -245,9 +245,6 @@ helpMessage= """\n
 ★ special command ★
 ● Turn off bots
 =======================
-SPECIAL THANKS TO:
-Ą̷̪͕̪̹̼̻̻͉̜̘̪̖̻ͨͧͨ́̓͂́ͩ̇̔ͥ̆́ͥ͡ȁ̼͖̤̹͍̞̥̪̘͓̙͔̯̟̯ͨ̂̆̈̓͏̴̷̨̧̢̨́́͢n̴̨̨̛̙̦̮͇̞͍͕̾͐͑ͧͨ̀͛̈̿͛̒͘̕͟͝͠͞ ͈̯̥͎̼̜̟̪̘̙̅ͮͥͥͮ͛̅̄̅̎͆͆̀͏̸̡̛́͜͢͞Ţ̸̷͚̟̭͓̣͉͔̖̎̍̊̉̋́̀͘͟͢͢͟͞͠͠e̴̴̛̟̙̠̫͖̻͚̱͔̲̜͙͙͖̞̩̣̽̊̉̐̀̏̽̅ͤͤͦ̚͢a̜̰͇̼͑̿̾̎ͥ̍͑ͭͭ̅ͪͭͥ̌͘͡͏͡m̴̢̙͚͗̈́̆͂ͤ͂̓ͫ̒͛͐ͬ̍͛̉̀̀̕͜͢͝͝͡ ̶̴̡̛̹̣̥̳̰̫͚̩̯̞̠͕͙͈̝͖ͩ̑ͧ̀̀̀͟͜͝҉̧Ḇ̸̶̧̗͎͉̦̫̮̜̜͖͚͓̟̖̱̅ͭ̆̿͑̾ͭ̑̅̌̚̕͜͜͢͟͠͝͠o̜̮͍̟̭͈̳̩̩̩̳̣͕̬ͬ͒ͣ̒̌͆̕ͅ҉͏̷̶̴̨̢̕͟͞͝͠t̶̶̷̡̨͕̫̎ͫ̒͐͝͡͠҉҉͏҉
-=======================
 """
 KAC=[cl,ki,kk,kc,ks,kt]
 mid = cl.getProfile().mid
@@ -266,8 +263,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = ["ub76a0153a283da9a1443dfb043181335","ud010d283f3fb4157ec43ad4e53fe6d3c"]
-owner = ["ub76a0153a283da9a1443dfb043181335"]
+admin = ["uc8487830df0446e693d46f5642e25b7a"]
+owner = ["uc8487830df0446e693d46f5642e25b7a"]
 wait = {
     'contact':False,
     'autoJoin':True,
