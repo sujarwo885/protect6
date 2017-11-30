@@ -3036,7 +3036,7 @@ def bot(op):
                     for mm in matched_list:
                         cocoa += "\n" + mm + "\n"
                     cl.sendText(msg.to,cocoa + "")
-           elif "Details grup: " in msg.text:
+            elif "Details grup: " in msg.text:
                 if msg.from_ in admin:
                     gid = msg.text.replace("/DetailsGroup: ","")
                     if gid in [""," "]:
@@ -4007,15 +4007,7 @@ def bot(op):
                 cl.sendText(msg.to,"Dosanya adalah cek voie ini")
                 cl.sendAudio(msg.to,'tts.mp3')
 #==========================================
-            elif "@"+cl.getProfile().displayName in msg.text:
-                try:
-                    tanya = msg.text.replace("@"+cl.getProfile().displayName,"")
-                    jawab = ("Jgn Tag Si "+cl.getProfile().displayName+"!!","Berisik jgn tag si "+cl.getProfile().displayName+" dia masih tidur")
-                    jawaban = random.choice(jawab)
-                    cl.sendText(msg.to,jawaban)
-                    cl.kickoutFromGroup(msg.to,[msg.from_])
-                except:
-                    pass
+            
 #==========================================
             elif "/ " in msg.text.lower():
                 txt = msg.text.replace("kedapkedip ", "")
@@ -4200,7 +4192,7 @@ def bot(op):
                     #for _mid in gMembMids:
                         #random.choice(KAC).cancelGroupInvitation(msg.to,[_mid])
                     #cl.sendText(msg.to,"Clear boss!!!")
-            elif msg.text.lower() in ["mention all"]:
+            elif msg.text.lower() in ["Ats","Tag","mention all"]:
               if msg.from_ in admin:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
