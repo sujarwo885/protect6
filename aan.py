@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Aan Team Bot
+#ღḯḉḯη-тєαм
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
@@ -38,7 +38,7 @@ kc.loginResult()
 #kl.login(token="")
 #kl.loginResult()
 
-print "T̐̄̈́̀̏͏̷̡̡͞e̱͍͍̟̯̞͙̙͍̜̯̅̈̍ͧͨ̽ͬ̾͏̶̶̵͡͝à̸̛̛͉̗̦͈͇̩̿̑ͯ̀̋͌̎̐ͯ̏ͤ͢͠m̨̦͔̠͈̜̫̖̘̗̠̽ͤͬͮͩ̋̑̽͛̌̉̿́̕ ͈҉̵̶̧̛̛͠͝҉̀͢͏̀͞ ̶̨̧̛̰̞͍͖͓͂̈́̄̃̇̐̐́̕̕͢͝ ̸̸̶̴̵̶̛̛̝͓̹̩̠̯̠̦̈̋̂̀̚͘͢͠͝͠J̶̛̲͇̤͔̝͕͍̮̳͎ͥ̾̐̆ͥ̑ͦ̓̓ͩ̎́ͅ͏̡̧̢̛̕̕͡͞u̵̵̲̽͑̆͌ͭ҉̵̧̧͘͝҉ţ̸̴̨̳͓͇͈̝̣̄͑̏̋̆̀̕͡͞ḁ̧̧̧̛̘͕͍̣̣͖̝ͤ̇͊̽̃͒̚̕͢͟ͅw̴̴̬̠̞͍̫̩̗ͫ̎ͩ͌̐͗ͮ̾̓̾͂͟͢aͪͫ̆ͬ̎̽ͧ̽̀ͬ͛ͬ̅̚͏̡͢͡҉n̤͈̒̂ͫ̽̈́ͭ҉͏̸̶̸́̕͡"
+print "ღḯḉḯη-тєαм"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage= """ 
@@ -257,7 +257,10 @@ helpMessage= """
 ╠     ✍️special command✍️ 
 ╠❂͜͡➣ Turn off bots
 ╚═══════════════════
-=======================
+╔═══════════════════╗
+☬   ᎢᎻX FᎾᎡ ᎷY ᎢᎬᎪᎷ  ☬
+☬       ღḯḉḯη-тєαм      ☬
+╚═══════════════════╝
 """
 KAC=[cl,ki,kk,kc,ks,kt]
 mid = cl.getProfile().mid
@@ -2516,12 +2519,12 @@ def bot(op):
                   cl.sendText(msg.to,datetime.today().strftime('%H:%M:%S'))
             elif msg.text in ["PING","Ping","ping"]:
               if msg.from_ in admin:
-                ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔Har Har")
-                kk.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔Har Har")
-                kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔Har Har")
-		ks.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔Har Har")
-		kt.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔Har Har")
-		cl.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔Har Har")
+                ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
+                kk.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
+                kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
+		ks.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
+		kt.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
+		cl.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
             elif "Info @" in msg.text:
               if msg.from_ in admin:
                 nama = msg.text.replace("Info @","")
@@ -3071,7 +3074,7 @@ def bot(op):
                             cl.sendText(msg.to,(error))#-------------------------------------------------------
             elif 'Crash' in msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ub76a0153a283da9a1443dfb043181335"}
+                msg.contentMetadata = {'mid': "c33b66e4b7709e54a6fe6eced6e57c157"}
                 cl.sendMessage(msg)
             #--------------------------------------------------------
 	    elif "Ban group: " in msg.text:
@@ -3209,10 +3212,10 @@ def bot(op):
                                         cl.uldateGroup(gs)
                                         gs.preventJoinByTicket(gs)
                                         cl.updateGroup(gs)
-            elif msg.text in ["Speed","speed"]:
+            elif msg.text in ["Speed","Sp"]:
 	      if msg.from_ in admin:
                 start = time.time()
-                cl.sendText(msg.to, "loading...................")
+                cl.sendText(msg.to, "loading.....")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
 		ki.sendText(msg.to, "%sseconds" % (elapsed_time))
@@ -3870,7 +3873,7 @@ def bot(op):
 						cl.sendText(manusia,(bctxt +"\n\n\nbroadcasted by:" + cl.getContact(msg.from_).displayName))
 										 
 #========================================
-            elif msg.text in ["Team @join"]:
+            elif msg.text in ["Join all"]:
               if msg.from_ in admin:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
@@ -3910,7 +3913,7 @@ def bot(op):
 					ki.sendText(msg.to,"bye-bye")
 				else:
 					ki.sendText(msg.to,"He declined all invitations")
-            elif msg.text in ["Team @bye"]:
+            elif msg.text in ["Bye all"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
