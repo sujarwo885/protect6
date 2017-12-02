@@ -2710,23 +2710,23 @@ def bot(op):
             elif msg.text.lower() == 'responsename':
               if msg.from_ in admin:
                 profile = cl.getProfile()
-                text = profile.displayName + " "
+                text = profile.displayName + "ღḯḉḯη-тєαм"
                 cl.sendText(msg.to, text)
                 profile = ki.getProfile()
-                text = profile.displayName + " " 
+                text = profile.displayName + "ღḯḉḯη-тєαм" 
                 ki.sendText(msg.to, text)
                 profile = kk.getProfile()
-                text = profile.displayName + " "
-		"
+                text = profile.displayName + "ღḯḉḯη-тєαм"
+		
                 kk.sendText(msg.to, text)
                 profile = kc.getProfile()
-                text = profile.displayName + " "
+                text = profile.displayName + "ღḯḉḯη-тєαм"
                 kc.sendText(msg.to, text)
                 profile = ks.getProfile()
-                text = profile.displayName + " "
+                text = profile.displayName + "ღḯḉḯη-тєαм"
                 ks.sendText(msg.to, text)
                 profile = kt.getProfile()
-                text = profile.displayName + " "
+                text = profile.displayName + "ღḯḉḯη-тєαм"
                 kt.sendText(msg.to, text)
 
 #========================================
