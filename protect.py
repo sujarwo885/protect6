@@ -2693,26 +2693,40 @@ def bot(op):
                         uye.sendText(msg.to,"Can not be used outside the group")
                     else:
                         uye.sendText(msg.to,"Not for use less than group")
+#-------------------------------------------------------
+            elif "Gift @" in msg.text:
+                _name = msg.text.replace("Gift @","")
+                _nametarget = _name.rstrip(' ')
+                gs = cl.getGroup(msg.to)
+                for g in gs.members:
+                    if _nametarget == g.displayName:
+                    	msg.contentType = 9
+                        msg.contentMetadata={'PRDID': '89131c1a-e549-4bd5-9e60-e24de0d2e252',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '10'}
+                        msg.text = None
+                        cl.sendMessage(msg,g)
 #===========================================
             elif msg.text.lower() == 'responsename':
               if msg.from_ in admin:
                 profile = cl.getProfile()
-                text = profile.displayName + "ღḯḉḯη-тєαм 1 ON"
+                text = profile.displayName + " "
                 cl.sendText(msg.to, text)
                 profile = ki.getProfile()
-                text = profile.displayName + "ღḯḉḯη-тєαм 2 ON"
+                text = profile.displayName + " " 
                 ki.sendText(msg.to, text)
                 profile = kk.getProfile()
-                text = profile.displayName + "ღḯḉḯη-тєαм 3 ON"
+                text = profile.displayName + " "
+		"
                 kk.sendText(msg.to, text)
                 profile = kc.getProfile()
-                text = profile.displayName + "ღḯḉḯη-тєαм 4 ON"
+                text = profile.displayName + " "
                 kc.sendText(msg.to, text)
                 profile = ks.getProfile()
-                text = profile.displayName + "ღḯḉḯη-тєαм 5 ON"
+                text = profile.displayName + " "
                 ks.sendText(msg.to, text)
                 profile = kt.getProfile()
-                text = profile.displayName + "ღḯḉḯη-тєαм 6 ON"
+                text = profile.displayName + " "
                 kt.sendText(msg.to, text)
 
 #========================================
