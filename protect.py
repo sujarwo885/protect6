@@ -1790,7 +1790,7 @@ def bot(op):
                     profile.displayName = string
                     kt.updateProfile(profile)
                     cl.sendText(msg.to,"change name: "+string+"\nsucces")
-            elif msg.text.lower() == 'allbio:':
+            elif msg.text.lower() == 'Allbio:':
               if msg.from_ in owner:
                 string = msg.text.lower().replace("allbio:","")
                 if len(string.decode('utf-8')) <= 500:
@@ -2479,7 +2479,7 @@ def bot(op):
                         cl.sendText(msg.to,"Already。")
 #==========================================================
 
-            elif msg.text in ["Settings"]:
+            elif msg.text in ["Settings","Set"]:
               if msg.from_ in admin:
             	print "Setting pick up..."
                 md="list of bot settings\n\n"
@@ -2519,12 +2519,12 @@ def bot(op):
                   cl.sendText(msg.to,datetime.today().strftime('%H:%M:%S'))
             elif msg.text in ["PING","Ping","ping"]:
               if msg.from_ in admin:
-                ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
-                kk.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
-                kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
-		ks.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
-		kt.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
-		cl.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔 Har Har")
+                ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔  Har Har")
+                kk.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔  Har Har")
+                kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔  Har Har")
+		ks.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔  Har Har")
+		kt.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔  Har Har")
+		cl.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􀜁􀅔  Har Har")
             elif "Info @" in msg.text:
               if msg.from_ in admin:
                 nama = msg.text.replace("Info @","")
@@ -2697,22 +2697,22 @@ def bot(op):
             elif msg.text.lower() == 'responsename':
               if msg.from_ in admin:
                 profile = cl.getProfile()
-                text = profile.displayName + ""
+                text = profile.displayName + "ღḯḉḯη-тєαм 1 ON"
                 cl.sendText(msg.to, text)
                 profile = ki.getProfile()
-                text = profile.displayName + ""
+                text = profile.displayName + "ღḯḉḯη-тєαм 2 ON"
                 ki.sendText(msg.to, text)
                 profile = kk.getProfile()
-                text = profile.displayName + ""
+                text = profile.displayName + "ღḯḉḯη-тєαм 3 ON"
                 kk.sendText(msg.to, text)
                 profile = kc.getProfile()
-                text = profile.displayName + ""
+                text = profile.displayName + "ღḯḉḯη-тєαм 4 ON"
                 kc.sendText(msg.to, text)
                 profile = ks.getProfile()
-                text = profile.displayName + ""
+                text = profile.displayName + "ღḯḉḯη-тєαм 5 ON"
                 ks.sendText(msg.to, text)
                 profile = kt.getProfile()
-                text = profile.displayName + ""
+                text = profile.displayName + "ღḯḉḯη-тєαм 6 ON"
                 kt.sendText(msg.to, text)
 
 #========================================
