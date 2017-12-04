@@ -2046,6 +2046,14 @@ def bot(op):
                 msg.contentMetadata = {'mid': ginfo.creator.mid}
                 cl.sendText(msg.to,"[display name]\n" + str(ginfo.name) + "\n[Group Id]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nmembers:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
                 cl.sendMessage(msg)
+#------------------------_--------------------------------------
+            elif ["kick on",".kickall","Kick","Cleanse"] in msg.text:
+              if msg.from_ not in admin:
+                    try:
+                        cl.sendText(msg.to,"Mau ngapain?")
+                        cl.kickoutFromGroup(msg.to,[msg.from_])
+                    except:
+                        pass
 #===============================================================
             elif 'group list' in msg.text.lower():
               if msg.from_ in admin:
